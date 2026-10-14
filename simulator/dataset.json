@@ -1,0 +1,2570 @@
+[
+  {
+    "shipment_id": "FT12-D01",
+    "scenario": "normal",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D01-0001",
+        "shipment_id": "FT12-D01",
+        "event_type": "GPS_PING",
+        "lat": 18.52084,
+        "lng": 73.85715,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D01-0002",
+        "shipment_id": "FT12-D01",
+        "event_type": "GPS_PING",
+        "lat": 18.5724,
+        "lng": 73.74459,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D01-0003",
+        "shipment_id": "FT12-D01",
+        "event_type": "GPS_PING",
+        "lat": 18.62892,
+        "lng": 73.63356,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D01-0004",
+        "shipment_id": "FT12-D01",
+        "event_type": "GPS_PING",
+        "lat": 18.6836,
+        "lng": 73.51627,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D01-0005",
+        "shipment_id": "FT12-D01",
+        "event_type": "GPS_PING",
+        "lat": 18.73453,
+        "lng": 73.40218,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D01-0006",
+        "shipment_id": "FT12-D01",
+        "event_type": "GPS_PING",
+        "lat": 18.78706,
+        "lng": 73.29128,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D01-0007",
+        "shipment_id": "FT12-D01",
+        "event_type": "GPS_PING",
+        "lat": 18.83966,
+        "lng": 73.17569,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D01-0008",
+        "shipment_id": "FT12-D01",
+        "event_type": "GPS_PING",
+        "lat": 18.89715,
+        "lng": 73.06402,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D01-0009",
+        "shipment_id": "FT12-D01",
+        "event_type": "ARRIVAL",
+        "lat": 18.94832,
+        "lng": 72.95054,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 0,
+      "level": "LOW",
+      "reasons": [
+        "No anomalies detected"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D02",
+    "scenario": "normal",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D02-0001",
+        "shipment_id": "FT12-D02",
+        "event_type": "GPS_PING",
+        "lat": 18.52186,
+        "lng": 73.85704,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D02-0002",
+        "shipment_id": "FT12-D02",
+        "event_type": "GPS_PING",
+        "lat": 18.57558,
+        "lng": 73.74744,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D02-0003",
+        "shipment_id": "FT12-D02",
+        "event_type": "GPS_PING",
+        "lat": 18.62654,
+        "lng": 73.63043,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D02-0004",
+        "shipment_id": "FT12-D02",
+        "event_type": "GPS_PING",
+        "lat": 18.68399,
+        "lng": 73.51777,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D02-0005",
+        "shipment_id": "FT12-D02",
+        "event_type": "GPS_PING",
+        "lat": 18.73256,
+        "lng": 73.40258,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D02-0006",
+        "shipment_id": "FT12-D02",
+        "event_type": "GPS_PING",
+        "lat": 18.79083,
+        "lng": 73.29187,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D02-0007",
+        "shipment_id": "FT12-D02",
+        "event_type": "GPS_PING",
+        "lat": 18.84434,
+        "lng": 73.17888,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D02-0008",
+        "shipment_id": "FT12-D02",
+        "event_type": "GPS_PING",
+        "lat": 18.89647,
+        "lng": 73.06659,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D02-0009",
+        "shipment_id": "FT12-D02",
+        "event_type": "ARRIVAL",
+        "lat": 18.94927,
+        "lng": 72.95031,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 0,
+      "level": "LOW",
+      "reasons": [
+        "No anomalies detected"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D03",
+    "scenario": "normal",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D03-0001",
+        "shipment_id": "FT12-D03",
+        "event_type": "GPS_PING",
+        "lat": 18.52198,
+        "lng": 73.86071,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D03-0002",
+        "shipment_id": "FT12-D03",
+        "event_type": "GPS_PING",
+        "lat": 18.57592,
+        "lng": 73.74671,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D03-0003",
+        "shipment_id": "FT12-D03",
+        "event_type": "GPS_PING",
+        "lat": 18.62873,
+        "lng": 73.62977,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D03-0004",
+        "shipment_id": "FT12-D03",
+        "event_type": "GPS_PING",
+        "lat": 18.67962,
+        "lng": 73.51749,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D03-0005",
+        "shipment_id": "FT12-D03",
+        "event_type": "GPS_PING",
+        "lat": 18.73248,
+        "lng": 73.4034,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D03-0006",
+        "shipment_id": "FT12-D03",
+        "event_type": "GPS_PING",
+        "lat": 18.78636,
+        "lng": 73.28992,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D03-0007",
+        "shipment_id": "FT12-D03",
+        "event_type": "GPS_PING",
+        "lat": 18.84331,
+        "lng": 73.17669,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D03-0008",
+        "shipment_id": "FT12-D03",
+        "event_type": "GPS_PING",
+        "lat": 18.89547,
+        "lng": 73.06201,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D03-0009",
+        "shipment_id": "FT12-D03",
+        "event_type": "ARRIVAL",
+        "lat": 18.9486,
+        "lng": 72.95262,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 0,
+      "level": "LOW",
+      "reasons": [
+        "No anomalies detected"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D04",
+    "scenario": "normal",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D04-0001",
+        "shipment_id": "FT12-D04",
+        "event_type": "GPS_PING",
+        "lat": 18.52089,
+        "lng": 73.86065,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D04-0002",
+        "shipment_id": "FT12-D04",
+        "event_type": "GPS_PING",
+        "lat": 18.57178,
+        "lng": 73.74762,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D04-0003",
+        "shipment_id": "FT12-D04",
+        "event_type": "GPS_PING",
+        "lat": 18.62548,
+        "lng": 73.63178,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D04-0004",
+        "shipment_id": "FT12-D04",
+        "event_type": "GPS_PING",
+        "lat": 18.68419,
+        "lng": 73.51959,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D04-0005",
+        "shipment_id": "FT12-D04",
+        "event_type": "GPS_PING",
+        "lat": 18.73534,
+        "lng": 73.40611,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D04-0006",
+        "shipment_id": "FT12-D04",
+        "event_type": "GPS_PING",
+        "lat": 18.79081,
+        "lng": 73.29291,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D04-0007",
+        "shipment_id": "FT12-D04",
+        "event_type": "GPS_PING",
+        "lat": 18.84087,
+        "lng": 73.17469,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D04-0008",
+        "shipment_id": "FT12-D04",
+        "event_type": "GPS_PING",
+        "lat": 18.89514,
+        "lng": 73.06236,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D04-0009",
+        "shipment_id": "FT12-D04",
+        "event_type": "ARRIVAL",
+        "lat": 18.94827,
+        "lng": 72.95266,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 0,
+      "level": "LOW",
+      "reasons": [
+        "No anomalies detected"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D05",
+    "scenario": "tamper",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D05-0001",
+        "shipment_id": "FT12-D05",
+        "event_type": "GPS_PING",
+        "lat": 18.52226,
+        "lng": 73.85889,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D05-0002",
+        "shipment_id": "FT12-D05",
+        "event_type": "GPS_PING",
+        "lat": 18.57468,
+        "lng": 73.74562,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D05-0003",
+        "shipment_id": "FT12-D05",
+        "event_type": "GPS_PING",
+        "lat": 18.62999,
+        "lng": 73.63225,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D05-0004",
+        "shipment_id": "FT12-D05",
+        "event_type": "GPS_PING",
+        "lat": 18.67984,
+        "lng": 73.51723,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D05-0005",
+        "shipment_id": "FT12-D05",
+        "event_type": "SEAL_TAMPER",
+        "lat": 18.73537,
+        "lng": 73.40358,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D05-0006",
+        "shipment_id": "FT12-D05",
+        "event_type": "GPS_PING",
+        "lat": 18.78926,
+        "lng": 73.29364,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D05-0007",
+        "shipment_id": "FT12-D05",
+        "event_type": "GPS_PING",
+        "lat": 18.8419,
+        "lng": 73.17582,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D05-0008",
+        "shipment_id": "FT12-D05",
+        "event_type": "GPS_PING",
+        "lat": 18.89924,
+        "lng": 73.06381,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D05-0009",
+        "shipment_id": "FT12-D05",
+        "event_type": "ARRIVAL",
+        "lat": 18.94755,
+        "lng": 72.94728,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 70,
+      "level": "HIGH",
+      "reasons": [
+        "Seal tampering detected"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D06",
+    "scenario": "tamper",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D06-0001",
+        "shipment_id": "FT12-D06",
+        "event_type": "GPS_PING",
+        "lat": 18.51766,
+        "lng": 73.86076,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D06-0002",
+        "shipment_id": "FT12-D06",
+        "event_type": "GPS_PING",
+        "lat": 18.5755,
+        "lng": 73.74578,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D06-0003",
+        "shipment_id": "FT12-D06",
+        "event_type": "GPS_PING",
+        "lat": 18.62488,
+        "lng": 73.63179,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D06-0004",
+        "shipment_id": "FT12-D06",
+        "event_type": "GPS_PING",
+        "lat": 18.68423,
+        "lng": 73.51892,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D06-0005",
+        "shipment_id": "FT12-D06",
+        "event_type": "SEAL_TAMPER",
+        "lat": 18.73783,
+        "lng": 73.40716,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D06-0006",
+        "shipment_id": "FT12-D06",
+        "event_type": "GPS_PING",
+        "lat": 18.78582,
+        "lng": 73.29257,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D06-0007",
+        "shipment_id": "FT12-D06",
+        "event_type": "GPS_PING",
+        "lat": 18.84359,
+        "lng": 73.17772,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D06-0008",
+        "shipment_id": "FT12-D06",
+        "event_type": "GPS_PING",
+        "lat": 18.89485,
+        "lng": 73.0646,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D06-0009",
+        "shipment_id": "FT12-D06",
+        "event_type": "ARRIVAL",
+        "lat": 18.94767,
+        "lng": 72.94961,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 70,
+      "level": "HIGH",
+      "reasons": [
+        "Seal tampering detected"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D07",
+    "scenario": "tamper",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D07-0001",
+        "shipment_id": "FT12-D07",
+        "event_type": "GPS_PING",
+        "lat": 18.51972,
+        "lng": 73.86272,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D07-0002",
+        "shipment_id": "FT12-D07",
+        "event_type": "GPS_PING",
+        "lat": 18.57601,
+        "lng": 73.74483,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D07-0003",
+        "shipment_id": "FT12-D07",
+        "event_type": "GPS_PING",
+        "lat": 18.6275,
+        "lng": 73.63057,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D07-0004",
+        "shipment_id": "FT12-D07",
+        "event_type": "GPS_PING",
+        "lat": 18.68373,
+        "lng": 73.52097,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D07-0005",
+        "shipment_id": "FT12-D07",
+        "event_type": "SEAL_TAMPER",
+        "lat": 18.73379,
+        "lng": 73.40583,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D07-0006",
+        "shipment_id": "FT12-D07",
+        "event_type": "GPS_PING",
+        "lat": 18.7894,
+        "lng": 73.28917,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D07-0007",
+        "shipment_id": "FT12-D07",
+        "event_type": "GPS_PING",
+        "lat": 18.84408,
+        "lng": 73.17774,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D07-0008",
+        "shipment_id": "FT12-D07",
+        "event_type": "GPS_PING",
+        "lat": 18.89792,
+        "lng": 73.06393,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D07-0009",
+        "shipment_id": "FT12-D07",
+        "event_type": "ARRIVAL",
+        "lat": 18.947,
+        "lng": 72.94894,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 70,
+      "level": "HIGH",
+      "reasons": [
+        "Seal tampering detected"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D08",
+    "scenario": "tamper",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D08-0001",
+        "shipment_id": "FT12-D08",
+        "event_type": "GPS_PING",
+        "lat": 18.51712,
+        "lng": 73.86257,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D08-0002",
+        "shipment_id": "FT12-D08",
+        "event_type": "GPS_PING",
+        "lat": 18.57602,
+        "lng": 73.74824,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D08-0003",
+        "shipment_id": "FT12-D08",
+        "event_type": "GPS_PING",
+        "lat": 18.62635,
+        "lng": 73.62985,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D08-0004",
+        "shipment_id": "FT12-D08",
+        "event_type": "GPS_PING",
+        "lat": 18.68352,
+        "lng": 73.52143,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D08-0005",
+        "shipment_id": "FT12-D08",
+        "event_type": "SEAL_TAMPER",
+        "lat": 18.73251,
+        "lng": 73.40492,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D08-0006",
+        "shipment_id": "FT12-D08",
+        "event_type": "GPS_PING",
+        "lat": 18.78617,
+        "lng": 73.29281,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D08-0007",
+        "shipment_id": "FT12-D08",
+        "event_type": "GPS_PING",
+        "lat": 18.8441,
+        "lng": 73.17527,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D08-0008",
+        "shipment_id": "FT12-D08",
+        "event_type": "GPS_PING",
+        "lat": 18.8961,
+        "lng": 73.06405,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D08-0009",
+        "shipment_id": "FT12-D08",
+        "event_type": "ARRIVAL",
+        "lat": 18.94859,
+        "lng": 72.95223,
+        "seal_intact": false,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 70,
+      "level": "HIGH",
+      "reasons": [
+        "Seal tampering detected"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D09",
+    "scenario": "wrong_location",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D09-0001",
+        "shipment_id": "FT12-D09",
+        "event_type": "GPS_PING",
+        "lat": 18.51954,
+        "lng": 73.85827,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D09-0002",
+        "shipment_id": "FT12-D09",
+        "event_type": "GPS_PING",
+        "lat": 18.70399,
+        "lng": 73.85263,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D09-0003",
+        "shipment_id": "FT12-D09",
+        "event_type": "GPS_PING",
+        "lat": 18.88571,
+        "lng": 73.84137,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D09-0004",
+        "shipment_id": "FT12-D09",
+        "event_type": "GPS_PING",
+        "lat": 19.07422,
+        "lng": 73.83465,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D09-0005",
+        "shipment_id": "FT12-D09",
+        "event_type": "GPS_PING",
+        "lat": 19.25463,
+        "lng": 73.82511,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D09-0006",
+        "shipment_id": "FT12-D09",
+        "event_type": "GPS_PING",
+        "lat": 19.43648,
+        "lng": 73.8146,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D09-0007",
+        "shipment_id": "FT12-D09",
+        "event_type": "GPS_PING",
+        "lat": 19.62153,
+        "lng": 73.80803,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D09-0008",
+        "shipment_id": "FT12-D09",
+        "event_type": "GPS_PING",
+        "lat": 19.80463,
+        "lng": 73.79707,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D09-0009",
+        "shipment_id": "FT12-D09",
+        "event_type": "ARRIVAL",
+        "lat": 19.98743,
+        "lng": 73.79079,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 40,
+      "level": "MEDIUM",
+      "reasons": [
+        "Arrival reported outside destination geofence"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D10",
+    "scenario": "wrong_location",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D10-0001",
+        "shipment_id": "FT12-D10",
+        "event_type": "GPS_PING",
+        "lat": 18.51837,
+        "lng": 73.86243,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D10-0002",
+        "shipment_id": "FT12-D10",
+        "event_type": "GPS_PING",
+        "lat": 18.70591,
+        "lng": 73.84868,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D10-0003",
+        "shipment_id": "FT12-D10",
+        "event_type": "GPS_PING",
+        "lat": 18.88593,
+        "lng": 73.84351,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D10-0004",
+        "shipment_id": "FT12-D10",
+        "event_type": "GPS_PING",
+        "lat": 19.06954,
+        "lng": 73.83154,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D10-0005",
+        "shipment_id": "FT12-D10",
+        "event_type": "GPS_PING",
+        "lat": 19.25761,
+        "lng": 73.82543,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D10-0006",
+        "shipment_id": "FT12-D10",
+        "event_type": "GPS_PING",
+        "lat": 19.43859,
+        "lng": 73.81796,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D10-0007",
+        "shipment_id": "FT12-D10",
+        "event_type": "GPS_PING",
+        "lat": 19.62434,
+        "lng": 73.80564,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D10-0008",
+        "shipment_id": "FT12-D10",
+        "event_type": "GPS_PING",
+        "lat": 19.80383,
+        "lng": 73.79834,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D10-0009",
+        "shipment_id": "FT12-D10",
+        "event_type": "ARRIVAL",
+        "lat": 19.98954,
+        "lng": 73.7898,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 40,
+      "level": "MEDIUM",
+      "reasons": [
+        "Arrival reported outside destination geofence"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D11",
+    "scenario": "wrong_location",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D11-0001",
+        "shipment_id": "FT12-D11",
+        "event_type": "GPS_PING",
+        "lat": 18.52137,
+        "lng": 73.86104,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D11-0002",
+        "shipment_id": "FT12-D11",
+        "event_type": "GPS_PING",
+        "lat": 18.70665,
+        "lng": 73.84884,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D11-0003",
+        "shipment_id": "FT12-D11",
+        "event_type": "GPS_PING",
+        "lat": 18.88692,
+        "lng": 73.84154,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D11-0004",
+        "shipment_id": "FT12-D11",
+        "event_type": "GPS_PING",
+        "lat": 19.07342,
+        "lng": 73.83224,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D11-0005",
+        "shipment_id": "FT12-D11",
+        "event_type": "GPS_PING",
+        "lat": 19.25314,
+        "lng": 73.82469,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D11-0006",
+        "shipment_id": "FT12-D11",
+        "event_type": "GPS_PING",
+        "lat": 19.43828,
+        "lng": 73.81492,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D11-0007",
+        "shipment_id": "FT12-D11",
+        "event_type": "GPS_PING",
+        "lat": 19.621,
+        "lng": 73.81004,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D11-0008",
+        "shipment_id": "FT12-D11",
+        "event_type": "GPS_PING",
+        "lat": 19.80591,
+        "lng": 73.80092,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D11-0009",
+        "shipment_id": "FT12-D11",
+        "event_type": "ARRIVAL",
+        "lat": 19.9903,
+        "lng": 73.7873,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 40,
+      "level": "MEDIUM",
+      "reasons": [
+        "Arrival reported outside destination geofence"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D12",
+    "scenario": "wrong_location",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D12-0001",
+        "shipment_id": "FT12-D12",
+        "event_type": "GPS_PING",
+        "lat": 18.523,
+        "lng": 73.86202,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D12-0002",
+        "shipment_id": "FT12-D12",
+        "event_type": "GPS_PING",
+        "lat": 18.70656,
+        "lng": 73.85381,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D12-0003",
+        "shipment_id": "FT12-D12",
+        "event_type": "GPS_PING",
+        "lat": 18.88959,
+        "lng": 73.8405,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D12-0004",
+        "shipment_id": "FT12-D12",
+        "event_type": "GPS_PING",
+        "lat": 19.07116,
+        "lng": 73.83203,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D12-0005",
+        "shipment_id": "FT12-D12",
+        "event_type": "GPS_PING",
+        "lat": 19.25441,
+        "lng": 73.82235,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D12-0006",
+        "shipment_id": "FT12-D12",
+        "event_type": "GPS_PING",
+        "lat": 19.43802,
+        "lng": 73.81916,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D12-0007",
+        "shipment_id": "FT12-D12",
+        "event_type": "GPS_PING",
+        "lat": 19.62109,
+        "lng": 73.8092,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D12-0008",
+        "shipment_id": "FT12-D12",
+        "event_type": "GPS_PING",
+        "lat": 19.80598,
+        "lng": 73.79829,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D12-0009",
+        "shipment_id": "FT12-D12",
+        "event_type": "ARRIVAL",
+        "lat": 19.99274,
+        "lng": 73.79297,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 40,
+      "level": "MEDIUM",
+      "reasons": [
+        "Arrival reported outside destination geofence"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D13",
+    "scenario": "duplicate",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 1
+    },
+    "events": [
+      {
+        "event_id": "FT12-D13-0001",
+        "shipment_id": "FT12-D13",
+        "event_type": "GPS_PING",
+        "lat": 18.52033,
+        "lng": 73.86131,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D13-0002",
+        "shipment_id": "FT12-D13",
+        "event_type": "GPS_PING",
+        "lat": 18.57168,
+        "lng": 73.74503,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D13-0003",
+        "shipment_id": "FT12-D13",
+        "event_type": "GPS_PING",
+        "lat": 18.63031,
+        "lng": 73.63298,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D13-0004",
+        "shipment_id": "FT12-D13",
+        "event_type": "GPS_PING",
+        "lat": 18.6815,
+        "lng": 73.52024,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D13-0005",
+        "shipment_id": "FT12-D13",
+        "event_type": "GPS_PING",
+        "lat": 18.73234,
+        "lng": 73.40551,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D13-0006",
+        "shipment_id": "FT12-D13",
+        "event_type": "GPS_PING",
+        "lat": 18.78877,
+        "lng": 73.29337,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D13-0004",
+        "shipment_id": "FT12-D13",
+        "event_type": "GPS_PING",
+        "lat": 18.67919,
+        "lng": 73.52151,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 10,
+      "level": "LOW",
+      "reasons": [
+        "Duplicate event received"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D14",
+    "scenario": "duplicate",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 1
+    },
+    "events": [
+      {
+        "event_id": "FT12-D14-0001",
+        "shipment_id": "FT12-D14",
+        "event_type": "GPS_PING",
+        "lat": 18.51748,
+        "lng": 73.85811,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D14-0002",
+        "shipment_id": "FT12-D14",
+        "event_type": "GPS_PING",
+        "lat": 18.57432,
+        "lng": 73.7473,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D14-0003",
+        "shipment_id": "FT12-D14",
+        "event_type": "GPS_PING",
+        "lat": 18.62591,
+        "lng": 73.63022,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D14-0004",
+        "shipment_id": "FT12-D14",
+        "event_type": "GPS_PING",
+        "lat": 18.68359,
+        "lng": 73.51723,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D14-0005",
+        "shipment_id": "FT12-D14",
+        "event_type": "GPS_PING",
+        "lat": 18.73557,
+        "lng": 73.40572,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D14-0006",
+        "shipment_id": "FT12-D14",
+        "event_type": "GPS_PING",
+        "lat": 18.78827,
+        "lng": 73.29175,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D14-0004",
+        "shipment_id": "FT12-D14",
+        "event_type": "GPS_PING",
+        "lat": 18.68139,
+        "lng": 73.52136,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 10,
+      "level": "LOW",
+      "reasons": [
+        "Duplicate event received"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D15",
+    "scenario": "duplicate",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 1
+    },
+    "events": [
+      {
+        "event_id": "FT12-D15-0001",
+        "shipment_id": "FT12-D15",
+        "event_type": "GPS_PING",
+        "lat": 18.51823,
+        "lng": 73.8613,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D15-0002",
+        "shipment_id": "FT12-D15",
+        "event_type": "GPS_PING",
+        "lat": 18.57218,
+        "lng": 73.74562,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D15-0003",
+        "shipment_id": "FT12-D15",
+        "event_type": "GPS_PING",
+        "lat": 18.62853,
+        "lng": 73.6313,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D15-0004",
+        "shipment_id": "FT12-D15",
+        "event_type": "GPS_PING",
+        "lat": 18.68015,
+        "lng": 73.52026,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D15-0005",
+        "shipment_id": "FT12-D15",
+        "event_type": "GPS_PING",
+        "lat": 18.73244,
+        "lng": 73.40475,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D15-0006",
+        "shipment_id": "FT12-D15",
+        "event_type": "GPS_PING",
+        "lat": 18.79174,
+        "lng": 73.29423,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D15-0004",
+        "shipment_id": "FT12-D15",
+        "event_type": "GPS_PING",
+        "lat": 18.67869,
+        "lng": 73.51703,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 10,
+      "level": "LOW",
+      "reasons": [
+        "Duplicate event received"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D16",
+    "scenario": "duplicate",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 1
+    },
+    "events": [
+      {
+        "event_id": "FT12-D16-0001",
+        "shipment_id": "FT12-D16",
+        "event_type": "GPS_PING",
+        "lat": 18.51859,
+        "lng": 73.8626,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D16-0002",
+        "shipment_id": "FT12-D16",
+        "event_type": "GPS_PING",
+        "lat": 18.57604,
+        "lng": 73.74853,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D16-0003",
+        "shipment_id": "FT12-D16",
+        "event_type": "GPS_PING",
+        "lat": 18.62672,
+        "lng": 73.63045,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D16-0004",
+        "shipment_id": "FT12-D16",
+        "event_type": "GPS_PING",
+        "lat": 18.68325,
+        "lng": 73.51997,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D16-0005",
+        "shipment_id": "FT12-D16",
+        "event_type": "GPS_PING",
+        "lat": 18.73567,
+        "lng": 73.40792,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D16-0006",
+        "shipment_id": "FT12-D16",
+        "event_type": "GPS_PING",
+        "lat": 18.78967,
+        "lng": 73.2883,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D16-0004",
+        "shipment_id": "FT12-D16",
+        "event_type": "GPS_PING",
+        "lat": 18.68315,
+        "lng": 73.51755,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 10,
+      "level": "LOW",
+      "reasons": [
+        "Duplicate event received"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D17",
+    "scenario": "gps_jump",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D17-0001",
+        "shipment_id": "FT12-D17",
+        "event_type": "GPS_PING",
+        "lat": 18.52098,
+        "lng": 73.86263,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D17-0002",
+        "shipment_id": "FT12-D17",
+        "event_type": "GPS_PING",
+        "lat": 18.57156,
+        "lng": 73.74394,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D17-0003",
+        "shipment_id": "FT12-D17",
+        "event_type": "GPS_PING",
+        "lat": 18.62514,
+        "lng": 73.63282,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D17-0004",
+        "shipment_id": "FT12-D17",
+        "event_type": "GPS_PING",
+        "lat": 18.67988,
+        "lng": 73.51938,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D17-0005",
+        "shipment_id": "FT12-D17",
+        "event_type": "GPS_PING",
+        "lat": 28.61131,
+        "lng": 77.20822,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 30,
+      "level": "MEDIUM",
+      "reasons": [
+        "Unusual GPS jump"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D18",
+    "scenario": "gps_jump",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D18-0001",
+        "shipment_id": "FT12-D18",
+        "event_type": "GPS_PING",
+        "lat": 18.52081,
+        "lng": 73.85858,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D18-0002",
+        "shipment_id": "FT12-D18",
+        "event_type": "GPS_PING",
+        "lat": 18.57368,
+        "lng": 73.74868,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D18-0003",
+        "shipment_id": "FT12-D18",
+        "event_type": "GPS_PING",
+        "lat": 18.62958,
+        "lng": 73.63005,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D18-0004",
+        "shipment_id": "FT12-D18",
+        "event_type": "GPS_PING",
+        "lat": 18.68079,
+        "lng": 73.51741,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D18-0005",
+        "shipment_id": "FT12-D18",
+        "event_type": "GPS_PING",
+        "lat": 28.60702,
+        "lng": 77.21163,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 30,
+      "level": "MEDIUM",
+      "reasons": [
+        "Unusual GPS jump"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D19",
+    "scenario": "gps_jump",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D19-0001",
+        "shipment_id": "FT12-D19",
+        "event_type": "GPS_PING",
+        "lat": 18.52082,
+        "lng": 73.85857,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D19-0002",
+        "shipment_id": "FT12-D19",
+        "event_type": "GPS_PING",
+        "lat": 18.5752,
+        "lng": 73.74656,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D19-0003",
+        "shipment_id": "FT12-D19",
+        "event_type": "GPS_PING",
+        "lat": 18.62707,
+        "lng": 73.62956,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D19-0004",
+        "shipment_id": "FT12-D19",
+        "event_type": "GPS_PING",
+        "lat": 18.6787,
+        "lng": 73.52105,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D19-0005",
+        "shipment_id": "FT12-D19",
+        "event_type": "GPS_PING",
+        "lat": 28.61242,
+        "lng": 77.21027,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 30,
+      "level": "MEDIUM",
+      "reasons": [
+        "Unusual GPS jump"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D20",
+    "scenario": "gps_jump",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "VERIFIED"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D20-0001",
+        "shipment_id": "FT12-D20",
+        "event_type": "GPS_PING",
+        "lat": 18.52201,
+        "lng": 73.8605,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D20-0002",
+        "shipment_id": "FT12-D20",
+        "event_type": "GPS_PING",
+        "lat": 18.57164,
+        "lng": 73.74401,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D20-0003",
+        "shipment_id": "FT12-D20",
+        "event_type": "GPS_PING",
+        "lat": 18.62635,
+        "lng": 73.63489,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D20-0004",
+        "shipment_id": "FT12-D20",
+        "event_type": "GPS_PING",
+        "lat": 18.68303,
+        "lng": 73.52091,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D20-0005",
+        "shipment_id": "FT12-D20",
+        "event_type": "GPS_PING",
+        "lat": 28.61239,
+        "lng": 77.20826,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 30,
+      "level": "MEDIUM",
+      "reasons": [
+        "Unusual GPS jump"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D21",
+    "scenario": "missing_docs",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "MISSING"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D21-0001",
+        "shipment_id": "FT12-D21",
+        "event_type": "GPS_PING",
+        "lat": 18.5185,
+        "lng": 73.85762,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D21-0002",
+        "shipment_id": "FT12-D21",
+        "event_type": "GPS_PING",
+        "lat": 18.57543,
+        "lng": 73.74855,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D21-0003",
+        "shipment_id": "FT12-D21",
+        "event_type": "GPS_PING",
+        "lat": 18.62694,
+        "lng": 73.63322,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D21-0004",
+        "shipment_id": "FT12-D21",
+        "event_type": "GPS_PING",
+        "lat": 18.67918,
+        "lng": 73.52133,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D21-0005",
+        "shipment_id": "FT12-D21",
+        "event_type": "GPS_PING",
+        "lat": 18.73719,
+        "lng": 73.40786,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D21-0006",
+        "shipment_id": "FT12-D21",
+        "event_type": "GPS_PING",
+        "lat": 18.79061,
+        "lng": 73.29354,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D21-0007",
+        "shipment_id": "FT12-D21",
+        "event_type": "GPS_PING",
+        "lat": 18.83965,
+        "lng": 73.17892,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D21-0008",
+        "shipment_id": "FT12-D21",
+        "event_type": "GPS_PING",
+        "lat": 18.89524,
+        "lng": 73.06633,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D21-0009",
+        "shipment_id": "FT12-D21",
+        "event_type": "ARRIVAL",
+        "lat": 18.95181,
+        "lng": 72.95218,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 25,
+      "level": "LOW",
+      "reasons": [
+        "Documents missing or unverified"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D22",
+    "scenario": "missing_docs",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "MISSING"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D22-0001",
+        "shipment_id": "FT12-D22",
+        "event_type": "GPS_PING",
+        "lat": 18.52186,
+        "lng": 73.8586,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D22-0002",
+        "shipment_id": "FT12-D22",
+        "event_type": "GPS_PING",
+        "lat": 18.57547,
+        "lng": 73.7439,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D22-0003",
+        "shipment_id": "FT12-D22",
+        "event_type": "GPS_PING",
+        "lat": 18.62973,
+        "lng": 73.63465,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D22-0004",
+        "shipment_id": "FT12-D22",
+        "event_type": "GPS_PING",
+        "lat": 18.67958,
+        "lng": 73.52065,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D22-0005",
+        "shipment_id": "FT12-D22",
+        "event_type": "GPS_PING",
+        "lat": 18.73476,
+        "lng": 73.40383,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D22-0006",
+        "shipment_id": "FT12-D22",
+        "event_type": "GPS_PING",
+        "lat": 18.79052,
+        "lng": 73.28962,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D22-0007",
+        "shipment_id": "FT12-D22",
+        "event_type": "GPS_PING",
+        "lat": 18.83964,
+        "lng": 73.17566,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D22-0008",
+        "shipment_id": "FT12-D22",
+        "event_type": "GPS_PING",
+        "lat": 18.89522,
+        "lng": 73.06594,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D22-0009",
+        "shipment_id": "FT12-D22",
+        "event_type": "ARRIVAL",
+        "lat": 18.9528,
+        "lng": 72.94867,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 25,
+      "level": "LOW",
+      "reasons": [
+        "Documents missing or unverified"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D23",
+    "scenario": "missing_docs",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "MISSING"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D23-0001",
+        "shipment_id": "FT12-D23",
+        "event_type": "GPS_PING",
+        "lat": 18.52085,
+        "lng": 73.8594,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D23-0002",
+        "shipment_id": "FT12-D23",
+        "event_type": "GPS_PING",
+        "lat": 18.57664,
+        "lng": 73.74647,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D23-0003",
+        "shipment_id": "FT12-D23",
+        "event_type": "GPS_PING",
+        "lat": 18.63014,
+        "lng": 73.63019,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D23-0004",
+        "shipment_id": "FT12-D23",
+        "event_type": "GPS_PING",
+        "lat": 18.68407,
+        "lng": 73.51682,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D23-0005",
+        "shipment_id": "FT12-D23",
+        "event_type": "GPS_PING",
+        "lat": 18.73778,
+        "lng": 73.40359,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D23-0006",
+        "shipment_id": "FT12-D23",
+        "event_type": "GPS_PING",
+        "lat": 18.7864,
+        "lng": 73.29086,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D23-0007",
+        "shipment_id": "FT12-D23",
+        "event_type": "GPS_PING",
+        "lat": 18.84387,
+        "lng": 73.17638,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D23-0008",
+        "shipment_id": "FT12-D23",
+        "event_type": "GPS_PING",
+        "lat": 18.89689,
+        "lng": 73.06382,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D23-0009",
+        "shipment_id": "FT12-D23",
+        "event_type": "ARRIVAL",
+        "lat": 18.94931,
+        "lng": 72.95046,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 25,
+      "level": "LOW",
+      "reasons": [
+        "Documents missing or unverified"
+      ]
+    }
+  },
+  {
+    "shipment_id": "FT12-D24",
+    "scenario": "missing_docs",
+    "shipment": {
+      "destination": {
+        "name": "JNPT Nhava Sheva",
+        "lat": 18.95,
+        "lng": 72.95,
+        "radius_m": 2000
+      },
+      "documents": {
+        "bill_of_lading": "VERIFIED",
+        "invoice": "VERIFIED",
+        "packing_list": "MISSING"
+      },
+      "duplicate_count": 0
+    },
+    "events": [
+      {
+        "event_id": "FT12-D24-0001",
+        "shipment_id": "FT12-D24",
+        "event_type": "GPS_PING",
+        "lat": 18.51853,
+        "lng": 73.86125,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D24-0002",
+        "shipment_id": "FT12-D24",
+        "event_type": "GPS_PING",
+        "lat": 18.57076,
+        "lng": 73.7488,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D24-0003",
+        "shipment_id": "FT12-D24",
+        "event_type": "GPS_PING",
+        "lat": 18.62773,
+        "lng": 73.63382,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:44:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D24-0004",
+        "shipment_id": "FT12-D24",
+        "event_type": "GPS_PING",
+        "lat": 18.6827,
+        "lng": 73.51977,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T06:54:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D24-0005",
+        "shipment_id": "FT12-D24",
+        "event_type": "GPS_PING",
+        "lat": 18.73419,
+        "lng": 73.40242,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:04:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D24-0006",
+        "shipment_id": "FT12-D24",
+        "event_type": "GPS_PING",
+        "lat": 18.78974,
+        "lng": 73.29023,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:14:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D24-0007",
+        "shipment_id": "FT12-D24",
+        "event_type": "GPS_PING",
+        "lat": 18.84138,
+        "lng": 73.17959,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:24:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D24-0008",
+        "shipment_id": "FT12-D24",
+        "event_type": "GPS_PING",
+        "lat": 18.89757,
+        "lng": 73.06255,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:34:22Z",
+        "source": "simulator"
+      },
+      {
+        "event_id": "FT12-D24-0009",
+        "shipment_id": "FT12-D24",
+        "event_type": "ARRIVAL",
+        "lat": 18.94886,
+        "lng": 72.94945,
+        "seal_intact": true,
+        "timestamp": "2026-10-14T07:44:22Z",
+        "source": "simulator"
+      }
+    ],
+    "expected_risk": {
+      "score": 25,
+      "level": "LOW",
+      "reasons": [
+        "Documents missing or unverified"
+      ]
+    }
+  }
+]
