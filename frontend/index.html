@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SealPay | Smart Escrow</title>
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <a class="brand" href="#">
+            <span class="brand-icon">S</span>
+            <span>SealPay<small>SMART ESCROW</small></span>
+        </a>
+
+        <p class="nav-label">WORKSPACE</p>
+        <button class="nav-item active" data-view="overview">▦ &nbsp; Overview</button>
+        <button class="nav-item" data-view="shipments">⇄ &nbsp; Shipments</button>
+        <button class="nav-item" data-view="wallets">◈ &nbsp; Wallets</button>
+        <button class="nav-item" data-view="audit">☷ &nbsp; Audit & Security</button>
+
+        <div class="sidebar-bottom">
+            <div class="connection-dot"></div>
+            <div>
+                <strong>System status</strong>
+                <small id="connection-status">Connecting to API…</small>
+            </div>
+        </div>
+    </aside>
+
+    <main class="main">
+        <header class="topbar">
+            <div>
+                <p class="eyebrow">SUPPLY CHAIN FINANCE</p>
+                <h1 id="page-title">Command Center</h1>
+            </div>
+            <div class="top-actions">
+                <span class="live-pill"><span></span> LIVE MONITORING</span>
+                <button class="button button-secondary" id="refresh-btn">↻ Refresh</button>
+            </div>
+        </header>
+
+        <div id="notice" class="notice" hidden></div>
+
+        <section class="welcome">
+            <div>
+                <p class="eyebrow light">TRANSPARENT. VERIFIED. SECURE.</p>
+                <h2>Every shipment.<br>Every rupee. Accounted for.</h2>
+                <p>Monitor cargo, detect tampering, and release escrow only when delivery conditions are met.</p>
+            </div>
+            <div class="welcome-art" aria-hidden="true">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="shield">✓</div>
+                <span class="art-label">VERIFIED DELIVERY</span>
+            </div>
+        </section>
+
+        <section class="stats-grid">
+            <article class="stat-card">
+                <div class="stat-top"><span>Total shipments</span><span class="stat-icon">▤</span></div>
+                <h2 id="total-orders">—</h2>
+                <p>Orders tracked by SealPay</p>
+            </article>
+            <article class="stat-card">
+                <div class="stat-top"><span>Funds in escrow</span><span class="stat-icon">₹</span></div>
+                <h2 id="escrow-balance">—</h2>
+                <p>Awaiting verified delivery</p>
+            </article>
+            <article class="stat-card">
+                <div class="stat-top"><span>In transit</span><span class="stat-icon">⇢</span></div>
+                <h2 id="in-transit">—</h2>
+                <p>Active monitored shipments</p>
+            </article>
+            <article class="stat-card">
+                <div class="stat-top"><span>Attention required</span><span class="stat-icon warning">!</span></div>
+                <h2 id="attention-count">—</h2>
+                <p>Frozen or delayed orders</p>
+            </article>
+        </section>
+
+        <section class="content-grid">
+            <article class="panel shipment-panel">
+                <div class="panel-heading">
+                    <div>
+                        <p class="eyebrow">TRACKING</p>
+                        <h3>Shipment overview</h3>
+                    </div>
+                    <button class="text-button" data-view="shipments">View all →</button>
+                </div>
+
+                <div class="shipment-select-row">
+                    <label for="order-select">SELECT ORDER</label>
+                    <select id="order-select">
+                        <option value="">Loading orders…</option>
+                    </select>
+                </div>
+
+                <div class="order-heading">
+                    <div>
+                        <span class="muted-label">ORDER ID</span>
+                        <h2 id="order-id">—</h2>
+                    </div>
+                    <span id="order-status" class="status-badge">Loading</span>
+                </div>
+
+                <div class="route-summary">
+                    <div class="route-point">
+                        <span class="route-marker"></span>
+                        <div><small>BUYER</small><strong id="buyer-name">—</strong></div>
+                    </div>
+                    <div class="route-line"></div>
+                    <div class="route-point">
+                        <span class="route-marker destination"></span>
+                        <div><small>DESTINATION</small><strong id="port-name">—</strong></div>
+                    </div>
+                </div>
+
+                <div class="map-wrap">
+                    <div id="shipment-map" role="application"
+                         aria-label="Interactive shipment tracking map"></div>
+                    <span class="map-tag">LIVE ROUTE</span>
+                </div>
+
+                <div class="detail-grid">
+                    <div><small>SUPPLIER</small><strong id="supplier-name">—</strong></div>
+                    <div><small>GOODS</small><strong id="goods-name">—</strong></div>
+                    <div><small>SHIPMENT VALUE</small><strong id="order-amount">—</strong></div>
+                    <div><small>SEAL ID</small><strong id="seal-id">—</strong></div>
+                    <div><small>EXPECTED ARRIVAL</small><strong id="order-eta">—</strong></div>
+                    <div><small>DELAY STATUS</small><strong id="delay-status">—</strong></div>
+                </div>
+            </article>
+
+            <div class="right-column">
+                <article class="panel wallet-panel">
+                    <div class="panel-heading">
+                        <div>
+                            <p class="eyebrow">FINANCIALS</p>
+                            <h3>Wallet balances</h3>
+                        </div>
+                        <span class="stat-icon">₹</span>
+                    </div>
+                    <div class="wallet-row">
+                        <span><i class="wallet-dot buyer-dot"></i>Buyer</span>
+                        <strong id="buyer-wallet">—</strong>
+                    </div>
+                    <div class="wallet-row">
+                        <span><i class="wallet-dot escrow-dot"></i>Escrow</span>
+                        <strong id="wallet-escrow">—</strong>
+                    </div>
+                    <div class="wallet-row">
+                        <span><i class="wallet-dot supplier-dot"></i>Supplier</span>
+                        <strong id="supplier-wallet">—</strong>
+                    </div>
+                    <p class="small-note">Demo balances · INR</p>
+                </article>
+
+                <article class="panel actions-panel">
+                    <div class="panel-heading">
+                        <div>
+                            <p class="eyebrow">ORDER CONTROLS</p>
+                            <h3>Manage shipment</h3>
+                        </div>
+                    </div>
+                    <button class="button button-primary full-button" id="fund-btn">01 &nbsp; Fund escrow</button>
+                    <button class="button button-secondary full-button" id="bol-btn">02 &nbsp; Upload bill of lading</button>
+                    <button class="button button-secondary full-button" id="ship-btn">03 &nbsp; Start shipment</button>
+                    <button class="button button-secondary full-button" id="audit-btn">04 &nbsp; Verify audit log</button>
+                    <button class="button button-danger full-button" id="reset-btn">↻ &nbsp; Reset demo</button>
+                    <p class="small-note">Actions are processed by the backend.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="panel timeline-panel">
+            <div class="panel-heading">
+                <div>
+                    <p class="eyebrow">TRACEABILITY</p>
+                    <h3>Shipment activity</h3>
+                </div>
+                <span class="live-pill"><span></span> AUTO-REFRESH</span>
+            </div>
+            <div id="event-timeline" class="timeline">
+                <p class="empty-state">Waiting for shipment events…</p>
+            </div>
+        </section>
+
+        <footer>
+            <span>SEALPAY · SMART ESCROW PROTOTYPE</span>
+            <span>SECURED BY VERIFIED DELIVERY</span>
+        </footer>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
