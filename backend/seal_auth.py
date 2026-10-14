@@ -2,10 +2,14 @@
 seal_auth.py - per-seal event signing and verification (HMAC-SHA256).
 
 Each seal has its own secret key. Every event a seal sends carries:
-    seal_id, timestamp (unix seconds), nonce, signature
+    seal_id, signed_at (unix seconds), nonce, signature
 The server recomputes the signature with that seal's key and rejects the
 event if it does not match, is too old / too far in the future, or reuses
 a nonce.
+
+signed_at is the moment of SENDING. It is separate from any event
+'timestamp' field, which is event data and is left untouched. Sign every
+send, including re-sends of the same event, so each send gets a fresh nonce.
 
 Keys are NEVER stored in the repo. They come from the environment:
     SEAL_KEYS='{"SEAL-001": "<hex key>", "SEAL-002": "<hex key>"}'
@@ -25,7 +29,7 @@ import sys
 import threading
 import time
 
-SIGNED_FIELDS = ("seal_id", "timestamp", "nonce")
+SIGNED_FIELDS = ("seal_id", "signed_at", "nonce")
 SIGNATURE_FIELD = "signature"
 MAX_SKEW_SECONDS = 60          # allowed clock difference between seal and server
 NONCE_TTL_SECONDS = 300        # how long a nonce is remembered (must be > 2 * skew)
@@ -76,7 +80,7 @@ def sign_event(event, key, now=None):
     if "seal_id" not in event:
         raise ValueError("event needs a seal_id before signing")
     signed = dict(event)
-    signed["timestamp"] = int(time.time() if now is None else now)
+    signed["signed_at"] = int(time.time() if now is None else now)
     signed["nonce"] = secrets.token_hex(16)
     mac = hmac.new(key.encode("utf-8"), _canonical_bytes(signed), hashlib.sha256)
     signed[SIGNATURE_FIELD] = mac.hexdigest()
@@ -126,7 +130,7 @@ def verify_event(event, keys, nonce_store, now=None, max_skew=MAX_SKEW_SECONDS):
         return False, "unknown_seal"
 
     try:
-        ts = float(event["timestamp"])
+        ts = float(event["signed_at"])
     except (TypeError, ValueError):
         return False, "bad_timestamp"
     if abs(now - ts) > max_skew:

@@ -69,14 +69,14 @@ class SealAuthTests(unittest.TestCase):
 
     def test_missing_fields_rejected(self):
         ev = make_event()
-        for field in ("signature", "nonce", "timestamp", "seal_id"):
+        for field in ("signature", "nonce", "signed_at", "seal_id"):
             bad = {k: v for k, v in ev.items() if k != field}
             self.assertEqual(sa.verify_event(bad, KEYS, fresh(), now=NOW)[1], "malformed")
         self.assertEqual(sa.verify_event("nope", KEYS, fresh(), now=NOW)[1], "malformed")
 
     def test_bad_timestamp_rejected(self):
         ev = make_event()
-        ev["timestamp"] = "yesterday"
+        ev["signed_at"] = "yesterday"
         self.assertEqual(sa.verify_event(ev, KEYS, fresh(), now=NOW)[1], "bad_timestamp")
 
     def test_forged_request_does_not_burn_nonce(self):
