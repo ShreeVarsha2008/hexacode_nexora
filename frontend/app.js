@@ -20,7 +20,8 @@
 // ?api=http://<backend-laptop-ip>:5000
 const API_PARAM = new URLSearchParams(window.location.search).get("api");
 const API_HOST = window.location.hostname || "localhost";
-const API_BASE_URL = (API_PARAM || `http://${API_HOST}:5000`).replace(/\/$/, "");
+const IS_LOCAL = ["localhost", "127.0.0.1", ""].includes(window.location.hostname);
+const API_BASE_URL = (API_PARAM || (IS_LOCAL ? "http://localhost:5000" : "https://sealpay-api-1e7q.onrender.com")).replace(/\/$/, "");
 const REFRESH_INTERVAL = 2000;
 
 // Demo coordinates from the shared keys file
